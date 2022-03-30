@@ -1,0 +1,130 @@
+body, html{
+    height: 100%;   
+}
+body{
+    position: relative;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+header > #navbar{
+    background-color:firebrick;
+    display: flex;
+}
+header > #navbar > a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    padding: 20px 30px;
+}
+header > #navbar > a:hover{
+    background-color: rgba(100, 149, 237,0.5);
+}
+header > #navbar > .about{
+    margin-left: auto;
+}
+@media (max-width: 600px){
+    header > #navbar > .about{
+        margin-left: auto;
+    }
+    header > #navbar > .contact{
+        margin-right: auto;
+    }
+}
+@media (max-width: 400px){
+    header > #navbar > a{
+        padding: 15px 20px;
+        font-size: 18px;
+    }
+}
+
+/* THE WELCOME SECTION */
+#welcome-section{
+    background-color: #222;
+    text-align: center;
+}
+#welcome-section > #welcome-text >h1{
+    color: white;
+    font-size: 3.7em;
+    margin-bottom: 0px;
+}
+#welcome-section > #welcome-text >p{
+    color: firebrick;
+    font-size: 2em;
+    font-style: italic;
+}
+/* the projects section */
+#profile-link{
+    text-decoration: none;
+    color: white;
+}
+#projects{
+    background-color: #224;
+    text-align: center;
+    padding: 70px 30px;
+    color: white;
+}
+#projects > h1{
+    display: inline-block;
+    font-size: 2.2em;
+    border-bottom: 2px solid white;
+    padding-bottom: 8px;
+}
+ #projects > #projects-gallery > .project-title > #profile-link >img{
+    width: 100%;
+    height: 300px;
+    margin: 0;
+}
+#projects > #projects-gallery > .project-title> #profile-link  > p{
+    background-color: #222;
+    padding: 20px 0px;
+    text-align: center;
+    margin-top: -5px;
+}
+button{
+    background-color: #222;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 100;
+    border: none;
+    margin-top: 20px;
+}
+/* bottom section*/
+#bottom-section{
+    background-color: #222;
+    text-align: center;
+    height: 50%;
+    padding: 80px 50px 40px 50px;
+    color: white;
+}
+#bottom-section > h1{
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+#bottom-nav{
+    margin-top: 50px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#bottom-nav > a{
+    text-decoration: none;
+    color: white;
+}
+
+#bottom-nav > a:hover{
+    position: relative;
+    top: 20px;
+}
+/* footer section */
+footer{
+    background-color: #222;
+    padding: 50px 60px;
+    text-align: center;
+    color: white;
+}
+

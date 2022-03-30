@@ -1,0 +1,48 @@
+#welcome-section{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header>#navbar{
+    position: fixed;
+    width: 100%;
+}
+
+
+#projects-gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#projects-gallery > div{
+    width: 30%;
+    
+}
+@media (max-width: 1024px){
+    #projects-gallery > div{
+        width: 47%;
+        
+    }
+}
+@media (max-width: 600px){
+    #projects-gallery > div{
+        width: 100%;
+        
+    }
+    #projects > h1{
+        font-size: 1.6em;
+    }
+    
+}
+@media (max-width: 768px){
+    #bottom-section{
+        padding-bottom: 120px;
+    }
+    #bottom-section > h1{
+        font-size: 2em;
+        margin-bottom: 0px;
+    }
+}
+
+
